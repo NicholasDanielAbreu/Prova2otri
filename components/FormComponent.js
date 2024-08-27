@@ -15,12 +15,12 @@ const FormComponent = () => {
         value={name}
         onChangeText={setName}
       />
-      <Text style={styles.text}>Sua senha: {password}</Text>
+      <Text style={styles.text}>Sua idade: {age}</Text>
       <TextInput
         style={styles.input}
-        placeholder="Digite sua senha"
-        value={password}
-        onChangeText={setPassword}
+        placeholder="Digite sua idade"
+        value={age}
+        onChangeText={setAge}
       />
       <Text style={styles.text}>Seu email: {email}</Text>
       <TextInput
